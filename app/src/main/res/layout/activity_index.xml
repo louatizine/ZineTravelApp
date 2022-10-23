@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginLeft="40dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:layout_width="340dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/search_bg"
+            android:paddingLeft="30dp"
+            android:text="Search Destination"
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="70dp"
+            android:layout_height="88dp"
+            android:layout_gravity="center"
+            android:background="@drawable/card_3" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="70dp"
+            android:layout_height="88dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/card_2" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="70dp"
+            android:layout_height="88dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/card_1" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="160dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/card_view_4" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="230dp"
+            android:src="@drawable/card_view_4" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginLeft="40dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/card_view_3" />
+
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/card_view_3"
+            android:layout_marginLeft="255dp"/>
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="255dp"
+            android:src="@drawable/card_view_2" />
+
+    </RelativeLayout>
+
+</LinearLayout>
